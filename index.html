@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Romántica</title>
+    <link rel="stylesheet" href="style.css">  <!-- Enlazamos el archivo CSS -->
+</head>
+<body>
+
+    <div class="loader">¡Bienvenido! 💖</div>
+    
+    <div class="heart">❤️</div>
+    <div class="heart-right">❤️</div>
+
+    <h1>¡Esto es para ti!</h1>
+    <div class="flower">🌻</div>
+
+    <div class="question">
+        ¿Quieres salir conmigo? <br><span>¡Sí o No!</span>
+    </div>
+
+    <div class="options">
+        <button class="button yes-button" onclick="showResponse('Sí')">Sí</button>
+        <button class="button no-button" onclick="showResponse('No')">No</button>
+    </div>
+
+    <div id="response" class="response"></div>
+
+    <!-- Botón para iniciar la música -->
+    <button onclick="playMusic()">Reproducir Canción</button>
+
+    <!-- El archivo JavaScript se enlaza aquí -->
+    <script src="script.js"></script> 
+
+</body>
+</html>
+
+
